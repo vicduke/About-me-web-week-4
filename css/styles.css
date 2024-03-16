@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    color: red;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.introduction {
+    background-color: #DAA06D;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.skills {
+    border: 2px solid #800020;
+    background-color: #C19A6B;
+    padding: 10px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.contact {
+    text-align: center;
+    background-color: #D27D2D;
+    padding: 15px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: cyan;
+}
+
+.contact a:hover {
+    color: #800020;
+}
+
+/* Media Query for Responsive Design */
+@media screen and (max-width: 600px) {
+    .header, .introduction, .skills, .contact {
+        padding: 5px;
+    }
+}
